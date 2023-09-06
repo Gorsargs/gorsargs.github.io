@@ -1,0 +1,5 @@
+export { default as GameField } from './GameField'
+export { default as RegularTileRemover } from './RegularTileRemover'
+export { default as Tile } from './Tile'
+export { default as TilePalette } from './TilePalette'
+export { default as TileRemoverBase } from './TileRemoverBase'
