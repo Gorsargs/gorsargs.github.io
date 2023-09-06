@@ -1,0 +1,7 @@
+{
+  "red": { "color": "red", "value": 1 },
+  "blue": { "color": "blue", "value": 2 },
+  "purple": { "color": "purple", "value": 3 },
+  "yellow": { "color": "yellow", "value": 4 },
+  "green": { "color": "green", "value": 5 }
+}
