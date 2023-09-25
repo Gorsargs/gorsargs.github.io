@@ -2,7 +2,7 @@ import TileSearchBase from './TileSearchBase'
 
 class TileSearchRadius extends TileSearchBase {
   #radiusToDestroy
-  constructor(board, radiusToDestroy = 4) {
+  constructor(board, radiusToDestroy = 3) {
     super(board)
     this.#radiusToDestroy = radiusToDestroy
   }
