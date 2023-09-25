@@ -1,9 +1,12 @@
-import BtnAbility3 from '/assets/btn-ability-3.png'
+import BtnBoom from '/assets/boom_button.png'
+import BtnReplace from '/assets/replace_button.png'
+import BtnReset from '/assets/reset_button.png'
 import BtnPause from '/assets/pause.png'
+import BtnUnpause from '/assets/unpause.png'
 import PanelScore from '/assets/panel-score.png'
 //BOARD AND TILE INFO
-export const TILE_WIDTH = 30
-export const TILE_HEIGHT = 30
+export const TILE_WIDTH = 40
+export const TILE_HEIGHT = 40
 export const BOARD_HEIGHT = 10
 export const BOARD_WIDTH = 10
 
@@ -20,41 +23,108 @@ export const UI_BOARD_POS = {
 }
 
 export const UI_BUTTON_ABILITY_1 = {
-  width: 55,
-  height: 55,
-  x: 500,
-  y: 350,
-  imgSrc: BtnAbility3,
+  width: 90,
+  height: 90,
+  x: 600,
+  y: 420,
+  imgSrc: BtnReplace,
+}
+
+export const UI_BUTTON_ABILITY_1_COUNT = {
+  fontSize: 20,
+  x: 645,
+  y: 520,
 }
 
 export const UI_BUTTON_ABILITY_2 = {
-  width: 55,
-  height: 55,
-  x: 560,
-  y: 350,
-  imgSrc: BtnAbility3,
+  width: 90,
+  height: 90,
+  x: 700,
+  y: 420,
+  imgSrc: BtnBoom,
+}
+export const UI_BUTTON_ABILITY_2_COUNT = {
+  fontSize: 20,
+  x: 745,
+  y: 520,
 }
 
 export const UI_BUTTON_ABILITY_3 = {
-  width: 55,
-  height: 55,
-  x: 620,
-  y: 350,
-  imgSrc: BtnAbility3,
+  width: 90,
+  height: 90,
+  x: 795,
+  y: 420,
+  imgSrc: BtnReset,
+}
+export const UI_BUTTON_ABILITY_3_COUNT = {
+  fontSize: 20,
+  x: 835,
+  y: 520,
 }
 
 export const UI_PANEL_SCORE = {
-  width: 150,
-  height: 145,
-  x: 510,
-  y: 200,
+  width: 280,
+  height: 270,
+  x: 600,
+  y: 150,
   imgSrc: PanelScore,
 }
 
 export const UI_BUTTON_PAUSE = {
-  width: 30,
-  height: 30,
-  x: 600,
+  width: 60,
+  height: 60,
+  x: 900,
   y: 20,
   imgSrc: BtnPause,
+}
+
+export const UI_BUTTON_UNPAUSE = {
+  width: 200,
+  height: 200,
+  x: 400,
+  y: 250,
+  imgSrc: BtnUnpause,
+}
+
+export const UI_STEPS_LEFT_TEXT = {
+  fontSize: 50,
+  x: 740,
+  y: 250,
+}
+
+export const UI_CURRENT_SCORE_TEXT = {
+  fontSize: 30,
+  x: 740,
+  y: 345,
+}
+
+export const UI_CURRENT_SCORE = {
+  fontSize: 30,
+  x: 740,
+  y: 375,
+}
+
+export const UI_GAME_OVER_TEXT = {
+  fontSize: 70,
+  x: 500,
+  y: 250,
+}
+export const UI_BUTTON_GAME_OVER = {
+  width: 200,
+  height: 250,
+  x: 400,
+  y: 200,
+  imgSrc: BtnUnpause,
+}
+
+export const UI_LVL_TEXT = {
+  x: 200,
+  y: 100,
+  fontSize: 50,
+}
+
+export const UI_POINTS_TO_REACH_TEXT = {
+  x: 100,
+  y: 650,
+  fontSize: 50,
 }
