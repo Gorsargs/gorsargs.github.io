@@ -65,7 +65,7 @@ class BoardAnimator {
     return tempArr
   }
 
-  update() {
+  draw() {
     this.animationBoard = this.updateAnimationBoard(this.board)
     this.ctx.drawImage(
       this.bgImage,
