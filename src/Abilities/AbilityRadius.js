@@ -15,6 +15,9 @@ class AbilityRadius extends AbilityBase {
     if (tilesToDestroy.length > 0) {
       this.boardController.destroyTiles(tilesToDestroy)
       this.gameData.onRadiusTileRemove()
+      this.gameData.onTileDelete(tilesToDestroy.length)
+    } else {
+      this.isAbilityUsed = false
     }
   }
 }

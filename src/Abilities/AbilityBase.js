@@ -29,8 +29,8 @@ class AbilityBase {
     //override this for a spcific ability
     if (this.isClicked) {
       this.isClicked = false
-      this.onExecute()
       this.isAbilityUsed = true
+      this.onExecute()
     }
   }
 

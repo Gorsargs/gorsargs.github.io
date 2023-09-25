@@ -14,6 +14,10 @@ class AbilityRegular extends AbilityBase {
     )
     if (tilesToDestroy.length > 0) {
       this.boardController.destroyTiles(tilesToDestroy)
+      this.gameData.onTileDelete(tilesToDestroy.length)
+      if (tilesToDestroy.length >= 5) {
+        this.gameData.radiusRemove++
+      }
       this.gameData.onRegularTileRemove()
     }
   }
