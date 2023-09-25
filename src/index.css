@@ -2,3 +2,15 @@
   font-family: Marvin;
   src: url(../assets/marvin.otf);
 }
+
+.canvas__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+}
+#tile_game {
+  background: black;
+  border-radius: 20px;
+}

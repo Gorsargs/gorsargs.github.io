@@ -107,7 +107,7 @@ $RECYCLE.BIN/
 .dropbox.attr
 .dropbox.cache
 
-
+.env
 ### Sass ###
 .sass-cache/
 *.css.map

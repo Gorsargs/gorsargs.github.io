@@ -1,5 +1,5 @@
 import GameInit from './GameInit'
-import '../src/index.css'
+import './index.css'
 
 new GameInit()
 
